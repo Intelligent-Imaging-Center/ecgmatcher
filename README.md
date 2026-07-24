@@ -6,6 +6,23 @@ ECGMatcher is a research software platform for morphological matching and abnorm
 
 > Important Notice: ECGMatcher is intended solely for scientific research, education, and non-commercial evaluation. It is not a medical device and must not be used as the sole basis for clinical diagnosis, emergency management, medication selection, or treatment decision-making.
 
+<p align="center">
+  <img
+    src="./ECGMatcher%20GUI.jpg"
+    alt="ECGMatcher graphical user interface showing patient input, standard-template configuration, multistage ECG analysis, quantitative metrics, and runtime progress"
+    width="100%"
+  >
+</p>
+
+<p align="center">
+  <em>
+    Figure 1. Graphical user interface of ECGMatcher, integrating patient data input,
+    standard-template configuration, ECG signal reconstruction, waveform semantic
+    segmentation, contour-overlap analysis, key-waveform morphology comparison,
+    similarity assessment, and abnormality localization.
+  </em>
+</p>
+
 ## 1. Distribution Format
 The current public release is a portable 64-bit Windows application:
 ```text
@@ -97,7 +114,13 @@ The current manuscript reports the following results:
 The research evaluation primarily uses the following publicly available datasets:
 
 * LUDB: 200 standard 12-lead ECG recordings
+  Official dataset page: https://physionet.org/content/ludb/1.0.1/  
+  Direct ZIP download: https://physionet.org/content/ludb/get-zip/1.0.1/
+  
 * PTB-XL: 2,203 recordings used for training and testing in the present study
+  Official dataset page: https://physionet.org/content/ptb-xl/1.0.3/  
+  Direct ZIP download: https://physionet.org/content/ptb-xl/get-zip/1.0.3/
+  
 The original datasets are not redistributed through this repository. Users should obtain them from their official sources and comply with the corresponding licensing and citation requirements.
 
 ## 9. License
