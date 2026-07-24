@@ -68,7 +68,7 @@ The core algorithms have been compiled into native Windows extension modules (`.
 6. Click **Run ECG Matcher** and wait for reconstruction, segmentation, morphological comparison, and abnormality localization to complete.
 7. Use the **Current Case** and **Current Lead** selectors to review the results.
 For complete operating instructions, see:
-`docs/ECGMatcher_软件使用说明书_学术中文_v1.0.0.docx`
+`docs/ECGMatcher User Manual v1.0.0.docx`
 
 ## 5. Input Data
 A wide-format 12-lead CSV file is recommended, using the following canonical lead order:
